@@ -1,0 +1,53 @@
+
+body{
+    background-color: #d5f6ff!important;
+    background-image: url(assets/register.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    font-family: 'Poppins'!important;
+    
+}
+
+section{
+    background-image: url(/assets/bg.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+
+h1{
+    font-size: 24px;
+    color: rgb(69, 126, 212);
+}
+
+h2{
+    font-size: 16px;
+}
+
+button{
+    background-color: rgb(69, 126, 212)!important;
+    border: none!important;
+    border-radius: 4px!important;
+    font-size: 14px!important;
+}
+
+a,p{
+    font-size: 14px;
+}
+
+img{
+    height: 80%;
+}
+
+.container{
+    min-width: 750px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+    min-width: auto!important;
+    }
+  }
